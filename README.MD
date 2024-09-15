@@ -11,17 +11,17 @@ This project performs facial expression transfer between two images (source and 
 
 ## Setup Instructions
 1. Clone the repository:
-     git clone https://github.com/marvensherif/3D_Face_Reconstrucation_Facial_Expression_Transfer
-     cd project
+     - git clone https://github.com/marvensherif/3D_Face_Reconstrucation_Facial_Expression_Transfer
+     - cd 3D_Face_Reconstrucation_Facial_Expression_Transfer
 
 2. Install the required dependencies:
-     pip install -r requirements.txt
+     - pip install -r requirements.txt
 
 3. Place your test images in the `test/` folder.
 
 4. Run the main script:
-      python src/main.py test/your_image_name.extention test/your_image_name.extention --output_dir output/
-      **ex**: python src/main.py test/source.png test/target.png--output_dir output/
+      - python src/main.py test/your_image_name.extention test/your_image_name.extention --output_dir output/
+      - **ex**: python src/main.py test/source.png test/target.png--output_dir output/
 
 ## Running using docker
     1. Place your test images in the `test/` folder.
