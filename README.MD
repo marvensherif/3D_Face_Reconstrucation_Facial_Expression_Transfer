@@ -22,7 +22,7 @@ This project performs facial expression transfer between two images (source and 
 
 4. Run the main script:
       - python src/main.py test/your_image_name.extention test/your_image_name.extention --output_dir output/
-      - **ex**: python src/main.py test/source.png test/target.png--output_dir output/
+      - **ex**: python src/main.py test/source.png test/target.png --output_dir output/
 
 ## Running using docker
 1. Place your test images in the `test/` folder.
