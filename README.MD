@@ -8,6 +8,7 @@ This project performs facial expression transfer between two images (source and 
 4. `requirements.txt`: List of dependencies.
 5. `3D_Face_Reconstruction_Expression_Transfer_Report`: A detailed Report about 3D Face Reconstruction and Face Expression Transfer.
 6. `3D_Face_Reconstruction_Expression_Transfer_Presentation`: Presentation slides summarizing key aspects of the 3D Face Reconstruction and Face Expression Transfer.
+7. `Dockerfile`: to build docker image.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -24,6 +25,7 @@ This project performs facial expression transfer between two images (source and 
       - **ex**: python src/main.py test/source.png test/target.png--output_dir output/
 
 ## Running using docker
+
     1. Place your test images in the `test/` folder.
     2. docker build -t your_image_name .
     3. docker run -it your_image_name
