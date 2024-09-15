@@ -25,13 +25,12 @@ This project performs facial expression transfer between two images (source and 
       - **ex**: python src/main.py test/source.png test/target.png--output_dir output/
 
 ## Running using docker
-
-    1. Place your test images in the `test/` folder.
-    2. docker build -t your_image_name .
-    3. docker run -it your_image_name
-    4. python src/main.py test/your_image_name.extention test/your_image_name.extention --output_dir output/
-    5. docker cp <container_id>:/app/output ./output
-     - **get container_id from docker ps command**
+1. Place your test images in the `test/` folder.
+2. docker build -t your_image_name .
+3. docker run -it your_image_name
+4. python src/main.py test/your_image_name.extention test/your_image_name.extention --output_dir output/
+5. docker cp <container_id>:/app/output ./output
+- **get container_id from docker ps command**
 
 - output
 The [2d_source_landmarks,2d_target_landmarks,3d_source_landmarks[HTML],3d_target_landmarks[HTML],
